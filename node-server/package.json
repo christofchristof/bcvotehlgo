@@ -1,0 +1,23 @@
+{
+  "name": "hyperledger-nodejs",
+  "version": "0.0.1",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "latest",
+    "bunyan": "^1.8.5",
+    "ejs": "latest",
+    "express": "latest",
+    "hfc": "^0.6.5",
+    "morgan": "latest",
+    "request": "^2.74.0",
+    "request-promise": "latest"
+  },
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "eslint-plugin-react": "^6.9.0",
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  }
+}
